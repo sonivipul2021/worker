@@ -1,0 +1,6 @@
+Use Case#
+
+Create a Cloudflare Worker. The HTTP response body should be “This is your ${CLIENT_IP} and you are accessing this site from ${COUNTRY) | ${ASN}.
+  a. This response should be visible on the browser as HTML. Run this worker script on the /geo path. For example: www.yourwebsite.com/geo.
+  b. Use Workers to create a logic if a user who is not from Singapore to be redirected to https://1.1.1.1/.
+ 
