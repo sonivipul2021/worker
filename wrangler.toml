@@ -1,0 +1,6 @@
+name = "helloworld"
+main = "src/index.js"
+compatibility_date = "2022-11-26"
+routes = [
+    { pattern = "www.apexcdn.ga/geo", zone_id = "b504748e2f166b46b5e14485c4daf8da" }
+]
